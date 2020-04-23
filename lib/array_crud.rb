@@ -12,8 +12,9 @@ end
 
 def add_element_to_end_of_array(array, element)
   
-numbers_array << 4
+array = ["a", "b", "c", ] << "d"
 
+puts array.inspect
 end
 
 def add_element_to_start_of_array(array, element)
