@@ -10,13 +10,9 @@ numbers_array = [0, 1, 2 , 3]
   
 end
 
-def add_element_to_end_of_array(array = , element = "e")
-  
-array = ["a", "b", "c", "d"] 
+def add_element_to_end_of_array(array, element)
 
-array << "e"
-
-puts array.inspect
+array << element
 
 end
 
