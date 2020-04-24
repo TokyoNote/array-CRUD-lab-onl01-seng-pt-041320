@@ -16,6 +16,8 @@ array = ["a", "b", "c", ] element = "d"
 
 array << "d"
 
+end
+
 puts array.inspect
 
 end
