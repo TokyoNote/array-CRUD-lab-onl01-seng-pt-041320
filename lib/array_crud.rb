@@ -12,11 +12,9 @@ end
 
 def add_element_to_end_of_array(array, element)
   
-array = ["a", "b", "c", ] element = "d"
+array = ["a", "b", "c", ] 
 
 array << "d"
-
-end
 
 puts array.inspect
 
